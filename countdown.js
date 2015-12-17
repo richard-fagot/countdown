@@ -26,7 +26,7 @@ var nowCountdown = new Date().getTime();
 var endCountdown = Date.parse(target);
 // Fix if date is in past
 if (endCountdown < nowCountdown){
-	target = 'March 7, 2016';
+	target = 'June 12, 2011';
 	endCountdown = Date.parse(target);
 }
 var theDiffCountdown = endCountdown-nowCountdown;
